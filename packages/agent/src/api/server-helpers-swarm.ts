@@ -265,6 +265,7 @@ export async function handleSwarmSynthesis(
       sessionId: string;
       label: string;
       agentType: string;
+      label?: string;
       originalTask: string;
       status: string;
       completionSummary: string;
